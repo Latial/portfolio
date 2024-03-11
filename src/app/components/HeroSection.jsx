@@ -14,6 +14,9 @@ const HeroSection = () => {
                             creating dynamic and responsive user interfaces, incorporating modern design principles, and utilizing APIs to
                             bring data to life</p>
                     </div>
+                    <div className = "col-span-5">
+                        
+                    </div>
                 </div>
             </section>
         </header>
