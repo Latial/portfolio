@@ -25,12 +25,14 @@ const HeroSection = () => {
                         sequence={[
                             "Aleksandar",
                             1000,
-                            "Web & Software Developer",
+                            "Software Dev",
                             1000,
-                            "Mobile Developer",
+                            "Web Developer",
+                            1000,
+                            "Mobile Dev",
                             1000,
                             "UI/UX Designer",
-                            1000,
+                            1000
                         ]}
                         wrapper="span"
                         speed={50}
@@ -41,7 +43,7 @@ const HeroSection = () => {
                     I am an enthusiastic and motivated front-end developer with a passion for creating intuitive and user-friendly web applications       
                 </p>
                 <div>
-                    <Link href="/#contact" className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-fromColor to-toColor hover:from-pink-500 hover:to-yellow-500 text-white">
+                    <Link href="/#contact" className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 mb-5 bg-gradient-to-br from-fromColor to-toColor hover:from-pink-500 hover:to-yellow-500 text-white">
                         Hire Me
                     </Link>
                     <Link href="/#contact"
