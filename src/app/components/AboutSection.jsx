@@ -61,7 +61,7 @@ const AboutSection = () => {
                     alt = "About Image"
                     className= "rounded-full"
                 />
-                <div className= "mt-4 md:mt-0 text-left flex flex-col h-full">
+                <div className= "mt-4 md:mt-0 text-left flex flex-col h-full" id = "about">
                     <h2 className= "text-4xl font-bold text-white mb-4">I'm Aleksandar Simic, Passionate Programmer</h2>
                     <p className= "italic font-bold text-base lg:text-lg">On a perpetual quest to turn innovative ideas into reality through code. 
                         With a blend of creativity and technical expertise, I specialize in crafting elegant solutions to complex problems. 
@@ -69,7 +69,7 @@ const AboutSection = () => {
                         From building sleek websites to developing robust applications, I thrive in the dynamic landscape of software development. 
                         Let's collaborate and bring your vision to life, one line of code at a time.
                     </p>
-                    <div className="flex flex-row justify-start mt-8">
+                    <div className="flex flex-row justify-start mt-8" id ="skills">
                         <TabButton selectTab={() => handleTabChange("skills")} active = {tab === "skills"}>
                             {" "}
                             Skills {" "}

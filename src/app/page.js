@@ -3,6 +3,7 @@ import HeroSection from './components/HeroSection'
 import NavBar from './components/NavBar'
 import AboutSection from './components/AboutSection'
 import AchievementsSection from "./components/AchievementsSection";
+import ProjectsSection from "./components/ProjectsSection";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col">
@@ -11,6 +12,7 @@ export default function Home() {
             <HeroSection/>
             <AchievementsSection/>
             <AboutSection/>
+            <ProjectsSection/>
         </div>
     </main>
   );
