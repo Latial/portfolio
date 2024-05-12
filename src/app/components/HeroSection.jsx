@@ -17,7 +17,7 @@ const HeroSection = () => {
                     className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
                 >
                 <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
-                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-fromColor to-toColor">
+                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-secondary-300 to-primary-300">
                       Hello, I&apos;m{" "}
                     </span>
                     <br></br>
@@ -43,11 +43,11 @@ const HeroSection = () => {
                     I am an enthusiastic and motivated front-end developer with a passion for creating intuitive and user-friendly web applications       
                 </p>
                 <div>
-                    <Link href="/#contact" className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 mb-5 bg-gradient-to-br from-fromColor to-toColor hover:from-pink-500 hover:to-yellow-500 text-white">
+                    <Link href="/#contact" className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 mb-5 bg-gradient-to-br from-secondary-500 to-primary-500 hover:from-pink-500 hover:to-yellow-500 text-white">
                         Hire Me
                     </Link>
                     <Link href="/#contact"
-                          className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-fromColor to-toColor hover:from-pink-500 hover:to-yellow-500 text-white">
+                          className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-secondary-500 to-primary-500 hover:from-pink-500 hover:to-yellow-500 text-white">
                         Download CV
                     </Link>
                 </div>

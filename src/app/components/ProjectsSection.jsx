@@ -7,20 +7,20 @@ import ProjectTag from './ProjectTag';
 const projectsData = [
     {
         id: 1,
-        title: "React Portfolio Website",
-        description: "Project 1 description",
+        title: "Coffee Shop Website",
+        description: "Coffee Shop Website",
         image: "/images/projects/1.png",
         tag: ["All", "Web"],
-        gitUrl: "/",
+        gitUrl: "https://github.com/Latial/CoffeeShop",
         previewUrl: "/",
     },
     {
         id: 2,
-        title: "Potography Portfolio Website",
-        description: "Project 2 description",
+        title: "Restaurant Website",
+        description: "Site for restaurant owners",
         image: "/images/projects/2.png",
         tag: ["All", "Web"],
-        gitUrl: "/",
+        gitUrl: "https://github.com/Latial/Bakery",
         previewUrl: "/",
     },
     {
@@ -43,11 +43,11 @@ const projectsData = [
     },
     {
         id: 5,
-        title: "React Firebase Template",
-        description: "Authentication and CRUD operations",
+        title: "GameShop Website",
+        description: "Website for game shopping",
         image: "/images/projects/5.png",
         tag: ["All", "Web"],
-        gitUrl: "/",
+        gitUrl: "https://github.com/Latial/PlayPort",
         previewUrl: "/",
     },
     {

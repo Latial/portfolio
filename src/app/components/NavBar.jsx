@@ -29,7 +29,7 @@ const NavBar = () => {
         <nav className="fixed top-0 left-0 right-0 z-10 bg-black bg-opacity-90">
             <div className="flex flex-wrap items-center justify-between mx-auto px-8 pt-4 pt-2">
                 <Link href={"/"}
-                      className="lg:text-4xl text-2xl text-white font-semibold bg-gradient-to-r from-fromColor to-toColor lg:w-16 lg:h-16 w-12 h-12 rounded flex justify-center items-center">AS</Link>
+                      className="lg:text-4xl text-2xl font-semibold bg-gradient-to-r from-primary-500 to-secondary-500 bg-clip-text text-transparent flex justify-center items-center">AS</Link>
                 <div className="mobile-menu block md:hidden">
                     {
                         !navBarOpen ?(
