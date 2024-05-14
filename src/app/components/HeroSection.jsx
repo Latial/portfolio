@@ -43,10 +43,10 @@ const HeroSection = () => {
                     I am an enthusiastic and motivated front-end developer with a passion for creating intuitive and user-friendly web applications       
                 </p>
                 <div>
-                    <Link href="/#contact" className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 mb-5 bg-gradient-to-br from-secondary-500 to-primary-500 hover:from-pink-500 hover:to-yellow-500 text-white">
+                    <Link href="https://www.linkedin.com/in/aleksandar-simic-sd/" className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 mb-5 bg-gradient-to-br from-secondary-500 to-primary-500 hover:from-pink-500 hover:to-yellow-500 text-white">
                         Hire Me
                     </Link>
-                    <Link href="/#contact"
+                    <Link href="/cv/CV - Aleksandar Simić.pdf"
                           className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-secondary-500 to-primary-500 hover:from-pink-500 hover:to-yellow-500 text-white">
                         Download CV
                     </Link>
