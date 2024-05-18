@@ -9,7 +9,7 @@ const Footer = () => {
                 <Link href={"/"} className="lg:text-4xl text-2xl font-semibold bg-gradient-to-r from-primary-500 to-secondary-500 bg-clip-text text-transparent flex justify-center items-center">
                     AS
                 </Link>
-                    <p>Aleksandar Simic</p>
+                    <p className= "hidden md:block lg:block">Aleksandar Simic</p>
                 </span>
                 <p className="text-slate-600 self-center flex flex-col">
                     &#169; COPYRIGHT
